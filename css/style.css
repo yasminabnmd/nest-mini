@@ -1,0 +1,335 @@
+/* Reset and base styles  */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+body {
+    color: black;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    -webkit-font-smoothing: antialiased;
+}
+.container {
+    max-width: 1230px;
+    padding: 0 30px;
+    margin: 0 auto;
+}
+
+.btn {
+    display: inline-block;
+    padding: 7px 22px;
+    background-color: #3771e0;
+    border-radius: 30px;
+
+    font-size: 18px;
+    color: white;
+}
+
+.ben:active {
+    position: relative;
+    top: 1px;
+    background-color: #3771e0;
+}
+
+/* Header */ 
+
+.header {
+    padding-top: 46px;
+    background-color: #f1f1f1;
+}
+
+.header_nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    align-items: center;
+
+    margin-bottom: 76px;
+}   
+
+.logo {
+    position: relative;
+    padding: 0 12px 3px 0;
+
+    font-weight: 600;
+    font-size: 27px;
+    line-height: 1;
+    color: black;
+}
+
+/* Nav */ 
+
+.nav-list {
+    display: flex;
+    column-gap: 50px;
+    font-weight: 500;
+    font-size: 14px;
+
+
+}
+
+.nav-link {
+    color: black;
+}
+
+/* Header content */ 
+
+ .header-row {
+    display: flex;
+    justify-content: space-between;
+    column-gap: 30px;
+}
+
+.header-content {
+    margin-top: 50px;
+    max-width: 500px;
+}
+
+.header-heading {
+    margin-bottom: 20px;
+    font-weight: 600;
+    font-size: 44px;
+}
+
+.header-content p {
+    line-height: 2;
+
+}
+
+.header-img {
+    width: 450;
+}
+
+.intro-subtitle {
+    margin-bottom: 45px;
+}
+
+/* Button */ 
+
+.btn {
+    display: inline-block;
+    vertical-align: top;
+    padding: 10px 30px;
+
+    border-radius: 5px;
+
+    font-size: 20px;
+    color: #ffff;
+    font-weight: 400;
+    text-decoration: none;
+}
+
+.btn--blue {
+    background-color: #3771e0;
+}
+
+
+/* Animation */ 
+
+.video-animation {
+    width: 1440;
+}
+
+/* Service */ 
+
+.services {
+    padding: 90px 0;
+
+}
+
+.services-row {
+    display: flex;
+    column-gap: 70px;
+
+}
+
+.services-card-img {
+    margin-bottom: 30px;
+
+}
+
+.services-card-title {
+    margin-bottom: 10px;
+    font-weight: 600;
+    font-size: 24px;
+}
+
+.services-card p {
+    line-height: 2;
+}
+
+/* Conseption */ 
+
+.conseption {
+    padding: 90px 0;
+    background-color: #f1f1f1;
+}
+
+.title-1 {
+    text-align: center;
+    padding: 90px 0;
+    font-size: 34px;
+    font-weight: 600;
+}
+
+.conseption-réfléchie {
+    display: flex;
+    margin-bottom: 70px;
+    text-align: center;
+    column-gap: 140px;
+}
+
+.conseption-item {
+    margin-bottom: 10px;
+    width: 25%;
+}
+
+.conseption-title {
+    margin-bottom: 10px;
+    font-weight: 600;
+    font-size: 24px;
+}
+
+.conseption-title p {
+    line-height: 2;
+}
+
+.conseption-img {
+    margin-bottom: 30px;
+}
+
+/* Contacts */ 
+
+.contacts {
+    padding: 90px 0;
+    text-align: center;
+
+}
+
+.contacts-titile {
+    margin-bottom: 40px;
+
+}
+
+.contacts-content {
+    margin-bottom: 90px;
+    font-size: 14px;
+}
+
+.contacts-content p + p {
+    margin-top: 1em;
+}
+
+.contacts-button {
+    margin-bottom: 80px;
+}
+
+.contacts-social {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 60px;
+    margin-bottom: 40px;
+}
+
+.contacts-fauter {
+    color: #828282
+
+}
+
+* {
+	padding: 0px;
+	margin: 0px;
+	border: none;
+}
+
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+
+/* Links */
+
+a, a:link, a:visited  {
+    text-decoration: none;
+}
+
+a:hover  {
+    text-decoration: none;
+}
+
+/* Common */
+
+aside, nav, footer, header, section, main {
+	display: block;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    font-size: inherit;
+	font-weight: inherit;
+}
+
+ul, ul li {
+	list-style: none;
+}
+
+img {
+	vertical-align: top;
+}
+
+img, svg {
+	max-width: 100%;
+	height: auto;
+}
+
+address {
+  font-style: normal;
+}
+
+/* Form */
+
+input, textarea, button, select {
+	font-family: inherit;
+    font-size: inherit;
+    color: inherit;
+    background-color: transparent;
+}
+
+input::-ms-clear {
+	display: none;
+}
+
+button, input[type="submit"] {
+    display: inline-block;
+    box-shadow: none;
+    background-color: transparent;
+    background: none;
+    cursor: pointer;
+}
+
+input:focus, input:active,
+button:focus, button:active {
+    outline: none;
+}
+
+button::-moz-focus-inner {
+	padding: 0;
+	border: 0;
+}
+
+label {
+	cursor: pointer;
+}
+
+legend {
+	display: block;
+}
+
+    
+
+
+
+
+
+
+
